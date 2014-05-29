@@ -10,6 +10,8 @@ public class KyouActivity extends Activity {
 		// TODO 自動生成されたメソッド・スタブ
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.kyou);
+
+
 	}
 
 }
