@@ -21,12 +21,21 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignRight="@+id/textView1"
             android:layout_below="@+id/textView1"
-            android:layout_marginRight="26dp"
-            android:layout_marginTop="101dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="52dp"
             android:text="大凶"
             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="58dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/daikyou" />
 
     </RelativeLayout>
 
