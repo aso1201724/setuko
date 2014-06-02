@@ -57,7 +57,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 				//インテントのインスタンス生成
 				intent = new Intent(MainActivity.this, DaikichiActivity.class);
 				//次画面のアクティビティ起動
-				startActivity(intent);
+				//startActivity(intent);
 
 				break;
 			case 1:
@@ -65,7 +65,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 				//インテントのインスタンス生成
 				intent = new Intent(MainActivity.this, ChuukichiActivity.class);
 				//次画面のアクティビティ起動
-				startActivity(intent);
+				//startActivity(intent);
 
 				break;
 			case 2:
@@ -73,17 +73,19 @@ public class MainActivity extends Activity implements View.OnClickListener {
 				//インテントのインスタンス生成
 				intent = new Intent(MainActivity.this, KyouActivity.class);
 				//次画面のアクティビティ起動
-				startActivity(intent);
+				//startActivity(intent);
 				break;
 			case 3:
 				//3なら大凶のページへ飛ばす
 				//インテントのインスタンス生成
 				intent = new Intent(MainActivity.this, DaikyouActivity.class);
 				//次画面のアクティビティ起動
-				startActivity(intent);
+				//startActivity(intent);
 				break;
 			}
-		}
+			intent.putExtra("name", inputMsg);
+			//次の画面のアクティビティ起動
+			startActivity(intent);}
 	}
 
 
